@@ -2,10 +2,10 @@ version: "2"
 
 services:
   grafana:
-    container_name: grafana2
+    container_name: grafana
     image: grafana/grafana
     ports:
-      - 3001:3000
+      - 3000:3000
     user: $ID
     restart: always
     volumes:
