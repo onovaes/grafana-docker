@@ -1,9 +1,9 @@
-== Instalação ==
+# Grafana em container
 
-Grafana em container/docker.
+Como rodar a última versão do grafana em um container do docker
 
 
-== Instalação ==
+## Instalação 
 
 1 - Clonar Repositório
 $git clone https://github.com/onovaes/grafana-docker.git
