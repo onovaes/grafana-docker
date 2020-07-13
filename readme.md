@@ -15,11 +15,11 @@ git clone https://github.com/onovaes/grafana-docker.git
 cd grafana-docker
 mkdir data
 ```
-3 - Salvar ID do seu usuário para ser executado como usuário do container
+3 - Salvar ID do seu usuário numa VAR para ser executado como usuário do container
 ```
 ID=$(id -u)
 ```
-4 - Subir o Cotainer
+4 - Subir o Container
 ```
 docker-compose up
 ```
