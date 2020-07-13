@@ -6,7 +6,7 @@ services:
     image: grafana/grafana
     ports:
       - 3001:3000
-    user: "501"
+    user: $ID
     restart: always
     volumes:
-      - ~/Documents/docker_projects/grafana/data:/var/lib/grafana
+      - $PWD/data:/var/lib/grafana
